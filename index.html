@@ -1,72 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<div lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <title>Túlio</title>
-	<style>
-		h2 {
-			font-family: monospace;
-			text-align: center;
-			}
-		#descricao {
-			font-family: Arial, Helvetica, sans-serif;
-			font-size: 40px;
-			text-align: center;
-			color: red;
-			}
-		
-		body {background-color: rgb(150, 240, 240);}
-		img {
-			margin-left: auto;
-			margin-right: auto;
-			display: block;
-			border-radius: 40%;
-		}
-		#titulo {text-align: center;}
-		#hab {
-			font-size: 30px;
-			text-align: center;
-		}
-		.cad {font-size: 25px;}
-		.c {font-size: 20px;}
-		.elet {font-size: 15px;}
-		ul {margin-left: 42%;}
-		ol {margin-left: 42%;}
-		h3{text-align: center;}
-		
-		
-
-	</style>
+	<link rel="stylesheet" href="style.css">
   </head>
 
     <h1 id="titulo">MEU PORTIFÓLIO</h1>
     <h2 id="nome">Túlio de Oliveira Trindade</h2>
     <hr color="black" />
-    <img src="eu.jpg" width="350" />
+    <img id =foto src="eu.jpg" width="350" />
     <p id="descricao">
       Mineiro, natural de Contagem, morando em Betim, 22 anos, tecnico em
       automação industrial e futuro dev.
     </p>
     <br />
-    <hr color="black"/>
+    <div class="baixo">
+    <div class="hab">
+    
     <p id="hab">HABILIDADES</p>
     <ul>
-	  <li class="cad">AutoCad</li>
+	  <li class="cad impar">AutoCad</li>
 	  <li class="c">C++</li>
-	  <li class="elet">Noções de Eletrica e Eletronica</li>
+	  <li class="elet impar">Noções de Eletrica e Eletronica</li>
       <li>comunicativo</li>
-      <li>Curioso</li>
+      <li class="impar">Curioso</li>
       <li>Aprendo com facilidade</li>
-      <li>Empatico</li>
+      <li class="impar">Empatico</li>
     </ul>
-    <hr color="black"/>
+    </div>
+    
+    <div class="ind">
 	<h3>INDICE</h3>
     <ol>
       <li><a href="#titulo">Título</a></li>
       <li><a href="#nome">Meu nome</a></li>
       <li><a href="#descricao">minha descrição</a></li>
     </ol>
-	<hr color="black"/>
+    </div>
+    <div class="links">
     <a href="eu.jpg">OLHA EU AI</a>
     <br />
     <a
@@ -74,5 +46,7 @@
       href="https://www.youtube.com/channel/UCpdagXDNCWHnztIbwRviPXQ"
       ><em>VEJA AQUI AS MELHORES JOGADAS DOS MELHORES JOGADORES</em></a
     >
+    </div>
+    </div>
   </body>
 </html>
